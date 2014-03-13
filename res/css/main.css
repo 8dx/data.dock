@@ -1,7 +1,10 @@
 body {
   background-image: url("../img/background.png");
 }
-textarea {
+.yaml-container {
   width: 100%;
   height: 128px;
+}
+div.container {
+	margin: 0 auto;
 }

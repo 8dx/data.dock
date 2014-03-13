@@ -7,26 +7,21 @@
     DOCUMENTATION FOR SOME SHIT<br />
     FUCKING CAN I GET SOME YAML OR SOME SHIT PLS<br />
     also cocks
-    <form>
-	<textarea id="yaml" placeholder="YAML goes here." class='yaml-container' autofocus></textarea>
+    <form id='yaml'>
+	<textarea id="yaml-ta" placeholder="YAML goes here." class='yaml-container' autofocus></textarea>
+	<input type='submit' value='digest u sum yaml' />
     </form>
-    <input type='button' value='DOC ME PLS' />
     <div id='container'>
     </div>
-    <script src='res/js/js-yaml.min.js'></script>
-    <script src='res/js/markdown.js'></script>
-    <script src='res/js/wysi-parser-advanced.js'></script>
+    <div id='stats'></div>
     <script src='//cdnjs.cloudflare.com/ajax/libs/wysihtml5/0.3.0/wysihtml5.min.js'></script>
     <script src='//cdnjs.cloudflare.com/ajax/libs/kineticjs/5.0.1/kinetic.min.js'></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src='//cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.0/js/toastr.min.js'></script>
-    <script>
-	$(function() {
-		var editor = new wysihtml5.Editor("yaml", { // id of textarea element
-		  parserRules:  wysihtml5ParserRules // defined in parser rules set 
-		});
-		
-	})
-    </script>
+    <script src='res/js/classes.js'></script>
+    <script src='res/js/js-yaml.min.js'></script>
+    <script src='res/js/markdown.js'></script>
+    <script src='res/js/wysi-parser-advanced.js'></script>
+    <script src="res/js/main.js"></script>
   </body>
 </html>
